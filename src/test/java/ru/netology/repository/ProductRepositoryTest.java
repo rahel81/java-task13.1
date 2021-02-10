@@ -35,7 +35,6 @@ class ProductRepositoryTest {
 
     @Test
     public void shouldRemoveIfNotExists() {
-
         assertThrows(NotFoundException.class, () -> repository.removeById(7));
     }
 }

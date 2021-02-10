@@ -63,6 +63,7 @@ public class Product {
                 ", price=" + price +
                 '}';
     }
+
     public boolean matches(String search) {
         return name.equalsIgnoreCase(search);
     }
